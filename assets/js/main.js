@@ -4,7 +4,7 @@ $(function() {
 	var $window = $(window);
 
 	// Parallax background effect
-	$("section[data-type="background"]").each(function() {
+	$("section[data-type='background']").each(function() {
 
 		var $bgobj = $(this); // assigning the object
 
