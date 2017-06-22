@@ -147,6 +147,11 @@ blockquote:before {
 	text-rendering: optimizeLegibility;
 }
 
+#hero article {
+	width: 100%;
+	text-align: center;
+}
+
 #hero .hero-text {
 	margin-top: 30px;
 }
@@ -178,7 +183,7 @@ blockquote:before {
 	text-align: center;
 	line-height: 70px;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 16px;
 	border-radius: 100%;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
