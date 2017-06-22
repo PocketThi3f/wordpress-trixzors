@@ -6,6 +6,7 @@ A project to demonstrate my skills and create a personalized blog using PHP, Wor
 * WordPress
 * HTML5
 * CSS3
+* Javascript
 
 Work In Progress (WIP)
 
