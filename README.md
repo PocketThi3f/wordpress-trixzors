@@ -1,5 +1,5 @@
 # wordpress-trixzors
-A project to demonstrate my skills and create a personalized blog using PHP, Wordpress, HTML5/CSS3 from scratch.
+A project to demonstrate my skills and create a personalized custom website using Wordpress, HTML5/CSS3/JS from scratch.
 
 # Technologies included:
 * PHP (yet to come)
