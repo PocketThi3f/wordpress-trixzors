@@ -172,6 +172,12 @@ section h3 {
 	color: white;
 }
 
+#instructor {
+	background: white url("../img/kris_thumbs.jpg") 100% no-repeat;
+	border-radius: 50%;
+	align-self: center;
+}
+
 /* === CUSTOM ICON SPRITES == */
 
 i.ci {
