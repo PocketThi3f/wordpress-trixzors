@@ -1,4 +1,4 @@
-/* COLOR REFERENCES 
+ COLOR REFERENCES 
 
 Green: #79b044
 Salmon: #dd5638
@@ -226,6 +226,33 @@ section h3 {
 	margin: 30px 0 10px;
 }
 
+#primary {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.feature-image {
+	display: table;
+	width: 100%;
+}
+
+.feature-image-default {
+	background: url("../img/stuff-feature.jpg") no-repeat;
+	background-size: cover;
+}
+
+.feature-image-default-alt {
+	background: url("../img/hipster-stuff.jpg") no-repeat;
+	background-size: cover;
+}
+
+.feature-image h1 {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+}
+
 #optin {
 	background: #3e4249;
 	padding: 20px 0;
@@ -360,7 +387,91 @@ footer li.signup-link a:hover {
 	font-weight: bold;
 }
 
+/* === BLOG === */
+
+
+.post {
+	position: relative;
+	border: solid 1px #ddd;
+	background: white;
+	margin: 0 0 40px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.post header,
+.post .post-excerpt {
+	padding: 20px;
+}
+
+.post header h1, 
+.post header h3 {
+	margin: 0 0 15px;
+	padding: 0 0 15px;
+	border-bottom: solid 1px #ddd;
+}
+
+.post header h1 {
+	font-size: 24px;
+}
+
+.post-image {
+	height: auto;
+}
+
+.post-details {
+	font-size: 12px;
+	width: 90%;
+}
+
+.post-details i.fa {
+	padding-left: 10px;
+}
+
+.post-details i.fa:first-child {
+	padding: 0;
+}
+
+/* === COMMENTS === */
+
+
+.post-comments-badge {
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	border: none;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background: #79b044;
+	text-align: center;
+	display: table;
+}
+
+.post-comments-badge a {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.post-comments-badge i.fa {
+	display: block;
+	font-size: 15px;
+	padding: 0;
+	margin-bottom: 4px;
+}
+
+.post-comments-badge:hover {
+	background-color: #8bc653;
+}
+
 /* === CUSTOM ICON SPRITES == */
+
 
 i.ci {
 	display: inline-block;
@@ -377,6 +488,7 @@ i.ci {
 .ci.ci-device {background-position: -200px 0;}
 
 /* ==== MEDIA QUERIES ==== */
+
 
 @media screen and ( max-width: 991 ) {
 	#instructor .container {
@@ -410,3 +522,12 @@ i.ci {
 		font-size: 16px;
 	}
 }
+
+/* @media (min-width:320px)  { smartphones, iPhone, portrait 480x320 phones }
+ @media (min-width:481px)  { portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. }
+ @media (min-width:641px)  { portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones }
+ @media (min-width:961px)  { tablet, landscape iPad, lo-res laptops ands desktops }
+ @media (min-width:1025px) { big landscape tablets, laptops, and desktops }
+ @media (min-width:1281px) { /* hi-res laptops and desktops */ 
+
+ /*standard zoom 1em === 16px. Multiply pixels by 1em/16px to get ems. For example, 320px === 20em.
